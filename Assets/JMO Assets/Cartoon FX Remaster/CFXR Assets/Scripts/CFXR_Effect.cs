@@ -555,7 +555,7 @@ namespace CartoonFX
 					{
 						if (clearBehavior == ClearBehavior.Destroy)
 						{
-							GameObject.Destroy(this.gameObject);
+							// Moved to GameManager
 						}
 						else
 						{
